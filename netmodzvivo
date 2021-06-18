@@ -1,3 +1,37 @@
-Error 404
-Server not responding
-Atualização chegando
+#!/bin/bash
+yes| termux-setup-storage > /dev/null 2>&1
+clear
+Menu() {
+    clear
+    echo -e '\n'
+    echo "=========================="
+    echo "     NETMODZ    "
+    echo "=========================="
+    echo " ERROR "
+    echo " ATUALIZAÇÃO EM ANDAMENTO "
+    echo " VOLTE MAIS TARDE "
+    echo " ENTRE NO CANAL @NETMODZ"		
+    echo "__________________________"
+    echo "[ 0 ] | SAIR"
+    echo -e '\n'
+    echo ""
+    echo ""	
+    read App
+    case $App in
+  
+    0) Sair ;;
+    *) "Calma" ; echo ; Menu;;
+    esac
+    }
+
+Voltar() {
+clear
+Menu
+}
+
+Sair() {
+clear
+exit
+}
+clear
+Menu
