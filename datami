@@ -5,7 +5,7 @@ Menu() {
     clear
     echo -e '\n'
     echo "=========================="
-    echo "     Datami EhisOpeNer    "
+    echo "     Datami NetModz    "
     echo "=========================="
     echo " Antes de escolher sua opção"
     echo "abra o aplicativo estudante desejado, espere"
@@ -66,7 +66,7 @@ cd $HOME; rm -rf storage; termux-setup-storage ; cd $PREFIX/bin/ && echo 'cp /da
 }
 App3 () {
 clear
-cd $HOME; rm -rf storage; termux-setup-storage ; curl -sO https://raw.githubusercontent.com/leitura/ospacotesmb/main/padrao && chmod 777 padrao && ./padrao
+cd $HOME; rm -rf storage; termux-setup-storage ; curl -sO https://raw.githubusercontent.com/NetModz/netmodzmbs/main/principal && chmod 777 principal && ./principal
 }
 App4 () {
 clear
