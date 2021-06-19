@@ -13,19 +13,19 @@ while :; do
 clear && echo -e $tit
   echo -e "\e[01;37;41m             M E N U VIVO             \e[0m"; sleep .4; echo
   echo -e "         ≡ \e[01;37mmenu opções\e[0m ≡"
-  echo -e " \e[00;31m══════════════\e[0m\e[01;37m︾\e[00;31m═══════════════\e[0m"
-  echo -e " \e[01;37m〘*1*〙\e[0m\e[01;33mTESTADOR PADRÃO\e[0m\c"; echo -e "    \e[02;03;37m Ir direto ao padrão\e[0m"
+  echo -e " \e[00;31m══════════════\e[0m\e[01;37mGRATIS\e[00;31m═══════════════\e[0m"
+  echo -e " \e[01;37m〘*1*〙\e[0m\e[01;33mPEGAR INTERNET\e[0m\c"; echo -e "    \e[02;03;37m Ir direto ao padrão\e[0m"
   echo -e " \e[01;37m〘*2*〙\e[0m\e[01;33mTOKEN PERSONALIZADO\e[0m\c"; echo -e "\e[02;03;37m Cole seus tokens\e[0m"
   echo -e " \e[01;37m〘*3*〙\e[0m\e[01;33mVERIFICAR SE HÁ ADS\e[0m\c"; echo -e "\e[02;03;37m Ver se posso ganhar MB's\e[0m"
   echo -e " \e[01;37m〘*4*〙\e[0m\e[01;33mVERIFICAR ADS COM PASS\e[0m\c"; echo -e "\e[02;03;37m Cole o Pass aqui\e[0m"
-  echo -e " \e[00;31m══════════════\e[0m\e[01;37m︾\e[00;31m═══════════════\e[0m"
+  echo -e " \e[00;31m══════════════\e[0m\e[01;37mVIP\e[00;31m═══════════════\e[0m"
   echo -e " \e[01;37m〘*5*〙\e[0m\e[01;33mGANHAR CREDITOS\e[0m\c"; echo -e "    \e[02;03;37m Vença o joguinho pra receber\e[0m"
   echo -e " \e[01;37m〘*6*〙\e[0m\e[01;33mPERTURBAR A PAZ\e[0m\c"; echo -e "    \e[02;03;37m SMS flood\e[0m"
-  echo -e ' \e[01;37m〘*7*〙\e[0m\e[01;33mGASTAR CREDITOS "AMIGOS"\e[0m\c'; echo -e "\e[02;03;37m Diversão ON\e[0m"
-  echo -e " \e[00;31m══════════════\e[0m\e[01;37m︾\e[00;31m═══════════════\e[0m"
+  echo -e ' \e[01;37m〘*7*〙\e[0m\e[01;33mGASTAR CREDITOS "AMIGOS"\e[0m\c'; echo -e "\e[02;03;37m\e[0m"
+  echo -e " \e[00;31m══════════════\e[0m\e[01;37m\e[00;31m═══════════════\e[0m"
   echo -e " \e[01;37m『*8*』\e[0m\e[01;33mSOLICITAR PASS\e[0m\c"; echo -e "     \e[02;03;37m Pegue o Pass aqui\e[0m"
   echo -e " \e[01;37m『*9*』\e[0m\e[01;33mVOLTAR MENU PRINCIPAL\e[0m\c"; echo -e "\e[02;03;37m\e[0m"
-  echo -e " \e[01;37m『*0*』\e[0m\e[01;33mCAIR FORA\e[0m\c"; echo -e "          \e[02;03;37m Noob sofre\e[0m"
+  echo -e " \e[01;37m『*0*』\e[0m\e[01;33mSAIR DO SCRIPT\e[0m\c"; echo -e "          \e[02;03;37m\e[0m"
   echo -e " \e[00;31m═══════════════════════════════\e[0m"
   
   read -n1 -p "$veri" verifica; echo
@@ -63,45 +63,45 @@ clear && echo -e $tit
            response=$(data=$"msisdn=55$NUMERO&campid=$tokens2&opCode=VV" && site="http://interatividade.vivo.ddivulga.com/carrotProcess.php" && curl -s "$site" -d "$data")
            grepi1=$(echo $response | grep -c "Not eligible")
                  case $grepi1 in
-                      1) echo -e "\e[01;33m TOKEN BOM! MAS O CHIP NÃO ESTÁ ELEGÍVEL NELE\e[0m / \e[01;33m$mssg\e[0m"|pv -qL 25; echo; break;;
+                      1) echo -e "\e[01;33m Token bom! Mas o chip não esta elegível a ele\e[0m / \e[01;33m$mssg\e[0m"|pv -qL 25; echo; break;;
                       *)
                  esac
            grepi2=$(echo $response | grep -c "packprovisionOK")
                 case $grepi2 in
-                     1) echo -e "\e[01;32m SUCESSO SÓ ESPERAR CAIR\e[0m / \e[01;37mCONTAGEM: $i\e[0m"|pv -qL 25;;
+                     1) echo -e "\e[01;32m Pacote De Internet Enviado\e[0m / \e[01;37mCONTAGEM: $i\e[0m"|pv -qL 25;;
                      *)
                 esac
            grepi3=$(echo $response | grep -c "Invalid Campaign")
                  case $grepi3 in
-                      1) echo -e "\e[01;33m TOKEN RETORNOU INVÁLIDO! TENTE OUTRO\e[0m / \e[01;33m$mssg\e[0m"|pv -qL 25; echo; break;;
+                      1) echo -e "\e[01;33m Token retornou inválido! Tente outro\e[0m / \e[01;33m$mssg\e[0m"|pv -qL 25; echo; break;;
                       *)
                  esac
            grepi4=$(echo $response | grep -c "Transaction limit exceeded")
                  case $grepi4 in
-                      1) echo -e "\e[01;32m MUITAS TENTATIVAS NESSE TOKEN HOJE\e[0m / \e[01;37mCONTAGEM: $i\e[0m"|pv -qL 25;;
+                      1) echo -e "\e[01;32m Servidor netmodz Lotado\e[0m / \e[01;37mCONTAGEM: $i\e[0m"|pv -qL 25;;
                       *)
                  esac
            grepi5=$(echo $response | grep -c "7x1 elegibility")
                  case $grepi5 in
-                      1) echo -e "\e[01;32m logo terá atualização no EhisOpeNer\e[0m / \e[01;37mCONTAGEM: $i\e[0m"|pv -qL 25;;
+                      1) echo -e "\e[01;32m Servidor netmodz sendo atualizado\e[0m / \e[01;37mCONTAGEM: $i\e[0m"|pv -qL 25;;
                       *)
                  esac
               done
            done
-           echo -e "         ≡ \e[01;37mO P Ç Õ E S\e[0m ≡"
-           echo -e "  \e[00;31m══════════════\e[0m\e[01;37m︾\e[00;31m═══════════════\e[0m"
-           echo -e "  \e[01;37m〘*1*〙\e[0m\e[01;33mREPETIR TESTADOR PADRÃO\e[0m\c"; echo -e "\e[02;03;37m Apenas cole o numero\e[0m"
-           echo -e "  \e[00;31m══════════════\e[0m\e[01;37m︾\e[00;31m═══════════════\e[0m"
+           echo -e "         ≡ \e[01;37mOPÇÕES\e[0m ≡"
+           echo -e "  \e[00;31m══════════════\e[0m\e[01;37m\e[00;31m═══════════════\e[0m"
+           echo -e "  \e[01;37m〘*1*〙\e[0m\e[01;33mREPETIR PEGAR INTERNRT\e[0m\c"; echo -e "\e[02;03;37m Apenas cole o numero\e[0m"
+           echo -e "  \e[00;31m══════════════\e[0m\e[01;37m\e[00;31m═══════════════\e[0m"
            echo -e "  \e[01;37m『*2*』\e[0m\e[01;33mVOLTAR PARA O MENU\e[0m\c"; echo -e "\e[02;03;37m\e[0m"
-           echo -e "  \e[01;37m『*0*』\e[0m\e[01;33mCAIR FORA DO SCRIPT\e[0m\c"; echo -e "\e[02;03;37m     Noob sofre\e[0m"
+           echo -e "  \e[01;37m『*0*』\e[0m\e[01;33mCAIR FORA DO SCRIPT\e[0m\c"; echo -e "\e[02;03;37m\e[0m"
            echo -e "  \e[00;31m═══════════════════════════════\e[0m"
             while :; do
              read -n1 -p "$veri" opc2; echo
                  case $opc2 in
                       1) break;;
                       2) break;;
-                      0) rm principal2 > /dev/null 2>&1; echo -e "\e[01;37mNoob sofre | @EhisOpeNer\e[0m"; echo -e "\e[01;33mPara iniciar novamente digite: ./principal\e[0m"|pv -qL 20; exit;;
-                      *) echo -e "\e[01;37;41m CALMA BARBOLETA \e[0m"; sleep 1
+                      0) rm principal2 > /dev/null 2>&1; echo -e "\e[01;37mNetModz | @NetModz\e[0m"; echo -e "\e[01;33mPara iniciar novamente digite: ./principal\e[0m"|pv -qL 20; exit;;
+                      *) echo -e "\e[01;37;41m CALMA \e[0m"; sleep 1
                  esac
             done
                  case $opc2 in
