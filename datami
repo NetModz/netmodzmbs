@@ -28,6 +28,7 @@ Menu() {
     echo "[ 14 ] | Princesa Educa+"
     echo "[ 15 ] | Conquist App"
     echo "[ 16 ] | Educar Igarassu"
+    echo "[ 17 ] | Olinda"
     echo "[ 0 ] | SAIR"
     echo -e '\n'
     echo "Escolhe um mod Estudante que usou"
