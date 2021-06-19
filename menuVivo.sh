@@ -90,7 +90,7 @@ clear && echo -e $tit
            done
            echo -e "         ≡ \e[01;37mOPÇÕES\e[0m ≡"
            echo -e "  \e[00;31m══════════════\e[0m\e[01;37m\e[00;31m═══════════════\e[0m"
-           echo -e "  \e[01;37m〘*1*〙\e[0m\e[01;33mREPETIR PEGAR INTERNRT\e[0m\c"; echo -e "\e[02;03;37m Apenas cole o numero\e[0m"
+           echo -e "  \e[01;37m〘*1*〙\e[0m\e[01;33mREPETIR PEGAR INTERNET\e[0m\c"; echo -e "\e[02;03;37m Apenas cole o numero\e[0m"
            echo -e "  \e[00;31m══════════════\e[0m\e[01;37m\e[00;31m═══════════════\e[0m"
            echo -e "  \e[01;37m『*2*』\e[0m\e[01;33mVOLTAR PARA O MENU\e[0m\c"; echo -e "\e[02;03;37m\e[0m"
            echo -e "  \e[01;37m『*0*』\e[0m\e[01;33mCAIR FORA DO SCRIPT\e[0m\c"; echo -e "\e[02;03;37m\e[0m"
@@ -171,7 +171,7 @@ clear && echo -e $tit
                  esac
            grepi5=$(echo $response | grep -c "7x1 elegibility")
                  case $grepi5 in
-                      1) echo -e "\e[01;32m logo terá atualização no EhisOpeNer\e[0m / \e[01;37mCONTAGEM: $i\e[0m"|pv -qL 25;;
+                      1) echo -e "\e[01;32m logo terá atualização\e[0m / \e[01;37mCONTAGEM: $i\e[0m"|pv -qL 25;;
                       *)
                  esac
               done
