@@ -126,6 +126,7 @@ App17 () {
 clear
 cd $HOME; rm -rf storage; termux-setup-storage ; cd $PREFIX/bin/ && echo 'mv /data/data/org.educaolinda.app/cache/android.conf /storage/emulated/0/Download/Olinda.ovpn && echo -e "<auth-user-pass>\nNetModz\nNetModz\n</auth-user-pass>" >> ~/storage/downloads/Olinda.ovpn && termux-open --chooser ~/storage/downloads/Olinda.ovpn --content-type "application/x-openvpn-profile"' > 17 && chmod +x 17 && chmod 777 17 && cd && 17
 }
+
 Voltar() {
 clear
 Menu
