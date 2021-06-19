@@ -118,25 +118,25 @@ cd $HOME; clear
   echo -e "\e[01;37;41m Bem vindo ao netmodz v6.2 \e[0m"|pv -qL 25; sleep .2
   echo -e "\e[01;37;41m Sua Licença (9YKAWYG0H4) \e[0m"|pv -qL 25; sleep 1
   while :; do
-  IMG2="ㅤㅤ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠛⠛⠋⠉⠙⠻⠿⠿⠿⠿⢿⣿⣿⣿⣿⣿⣿\nㅤㅤ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠃⠄⠄⠄⠄⠄⠄⠄⠄⠹⣿⣿⣶⣶⣦⣬⢹⣿⣿\nㅤㅤ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠃⠄⠄⠄⣰⣧⡀⠄⠄⠄⠄⠈⢙⡋⣿⣿⣿⢸⣿⣿\nㅤㅤ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠄⠄⠰⠼⢯⣿⣿⣦⣄⠄⠄⠄⠈⢡⣿⣿⣿⢸⣿⣿\nㅤㅤ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠄⠄⠸⠤⠕⠛⠙⠷⣿⡆⠄⠄⠄⣸⣿⣿⡏⣼⣿⣿\nㅤㅤ⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⣴⣿⣿⣿⢡⣿⣿⣿\nㅤㅤ⣿⣿⣿⣿⣿⣿⣿⣿⡟⠄⠄⠄⠄⠄⣄⠄⢀⠄⠄⢀⣤⣾⣿⣿⣿⢃⣾⣿⣿⣿\nㅤㅤ⣿⣿⣿⣿⣿⣿⠿⣛⣡⣄⣀⠄⠠⢴⣿⣿⡿⣄⣴⣿⣿⣿⣿⣿⢃⣾⣿⣿⣿⣿\nㅤㅤ⣿⣿⣿⣿⣿⡏⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣩⡽⡁⢸⣿⣿⣿⣿⣿\nㅤㅤ⣿⣿⣿⣿⣿⢃⣿⣿⢟⣿⣿⣿⣿⣿⣮⢫⣿⣿⣿⣿⣿⣟⢿⠃⠄⢻⣿⣿⣿⣿\nㅤㅤ⣿⣿⣿⣿⡿⣸⠟⣵⣿⣿⣿⣿⣿⣿⣿⣾⣿⣿⣿⣿⣿⣿⣷⣄⢰⡄⢿⣿⣿⣿\nㅤㅤ⣿⣿⣿⣿⡇⠏⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⠹⡎⣿⣿⣿\nㅤㅤ⣭⣍⠛⠿⠄⢰⠋⡉⠹⣿⣿⣿⣿⣿⣿⠙⣿⣿⣿⣿⣿⣿⡟⢁⠙⡆⢡⣿⣿⣿\nㅤㅤ⠻⣿⡆⠄⣤⠈⢣⣈⣠⣿⣿⣿⣿⣿⠏⣄⠻⣿⣿⣿⣿⣿⣆⣈⣴⠃⣿⣿⣿⣿\nㅤㅤ⡀⠈⢿⠄⣿⡇⠄⠙⠿⣿⡿⠿⢋⣥⣾⣿⣷⣌⠻⢿⣿⣿⡿⠟⣡⣾⣿⣿⠿⢋\nㅤㅤ⠛⠳⠄⢠⣿⠇⠄⣷⡑⢶⣶⢿⣿⣿⣿⣽⣿⣿⣿⣶⣶⡐⣶⣿⠿⠛⣩⡄⠄⢸";
+  IMG2="Sua Licença (9YKAWYG0H4)"
   clear; echo -e $IMG2
-  echo -e "\e[01;37;41m           M E N U PRINCIPAL          \e[0m"; sleep .4; echo
+  echo -e "\e[01;37;41m           MENU          \e[0m"; sleep .4; echo
   echo -e "         ≡ \e[01;37mmenu opções\e[0m ≡"
-  echo -e " \e[00;31m══════════════\e[0m\e[01;37m︾\e[00;31m═══════════════\e[0m"
-  echo -e " \e[01;37m〘*1*〙\e[0m\e[01;33mENTRAR MENU V I V O\e[0m"
-  echo -e " \e[01;37m〘*2*〙\e[0m\e[01;33mENTRAR MENU O I\e[0m"
-  echo -e " \e[00;31m══════════════\e[0m\e[01;37m︾\e[00;31m═══════════════\e[0m"
+  echo -e " \e[00;31m══════════════\e[0m\e[01;37m\e[00;31m═══════════════\e[0m"
+  echo -e " \e[01;37m〘*1*〙\e[0m\e[01;33mENTRAR MENU VIVO\e[0m"
+  echo -e " \e[01;37m〘*2*〙\e[0m\e[01;33mENTRAR MENU OI\e[0m"
+  echo -e " \e[00;31m══════════════\e[0m\e[01;37m\e[00;31m═══════════════\e[0m"
   echo -e " \e[01;37m『*0*』\e[0m\e[01;33mCAIR FORA\e[0m\c"; echo -e "          \e[02;03;37m Noob sofre\e[0m"
   echo -e " \e[00;31m═══════════════════════════════\e[0m"
   aa=$(echo -e " \e[01;37mOpção: \e[0m")
   read -n1 -p "$aa" opc
    case $opc in
-        1) echo -e "\n\e[01;33mcomo vai atualizar os tokens agora, disseram ( ͡° ͜ʖ ͡°)\e[0m"|pv -qL 20; sleep 1.3;
+        1) echo -e "\n\e[01;33mCARREGANDO...\e[0m"|pv -qL 20; sleep 1.3;
             break;;
-        2) echo -e "\n\e[01;33mcomo vai atualizar os tokens agora, disseram ( ͡° ͜ʖ ͡°)\e[0m"|pv -qL 20; sleep 1.3
+        2) echo -e "\n\e[01;33mCARREGANDO...\e[0m"|pv -qL 20; sleep 1.3
             break;;
-        0) rm principal2 > /dev/null 2>&1; echo; echo -e "\e[01;37mNoob sofre | @EhisOpeNer\e[0m"; echo -e "\e[01;33mPara iniciar novamente digite: ./principal\e[0m"|pv -qL 20; break;;
-        *) echo -e "\e[01;37;41m CALMA BARBOLETA \e[0m"; sleep .5
+        0) rm principal2 > /dev/null 2>&1; echo; echo -e "\e[01;37mNetModz | @NetModz\e[0m"; echo -e "\e[01;33mPara iniciar novamente digite: ./principal\e[0m"|pv -qL 20; break;;
+        *) echo -e "\e[01;37;41m CALMA \e[0m"; sleep .5
    esac
   done
      case $opc in
