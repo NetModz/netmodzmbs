@@ -5,7 +5,7 @@ cd $HOME; clear
   clear; sleep .1
   IMG1="NETMODZ V2.6"
   IMG2="@NetModz"
-  IMG3="Dono: @Jhon034"
+  IMG3="Dono: @John034"
   IMG4="V2.6"
   IMG5="NETMODZ"
   a=$"$IMG1" b=$"$IMG2" c=$"$IMG3" d=$"$IMG4" e=$"$IMG5"
