@@ -13,12 +13,12 @@ while :; do
 clear && echo -e $tit
   echo -e "\e[01;37;41m             MENU VIVO             \e[0m"; sleep .4; echo
   echo -e "         ≡ \e[01;37mOPÇÕES\e[0m ≡"
-  echo -e " \e[00;31m══════════════\e[0m\e[01;37mGRATIS\e[00;31m═══════════════\e[0m"
+  echo -e " \e[00;31m══════════════\e[0m\e[01;37m\e[00;31m═══════════════\e[0m"
   echo -e " \e[01;37m〘*1*〙\e[0m\e[01;33mPEGAR INTERNET\e[0m\c"; echo -e "    \e[02;03;37m Ir direto ao padrão\e[0m"
   echo -e " \e[01;37m〘*2*〙\e[0m\e[01;33mTOKEN PERSONALIZADO\e[0m\c"; echo -e "\e[02;03;37m Cole seus tokens\e[0m"
   echo -e " \e[01;37m〘*3*〙\e[0m\e[01;33mVERIFICAR SE HÁ ADS\e[0m\c"; echo -e "\e[02;03;37m Ver se posso ganhar MB's\e[0m"
   echo -e " \e[01;37m〘*4*〙\e[0m\e[01;33mVERIFICAR ADS COM PASS\e[0m\c"; echo -e "\e[02;03;37m Cole o Pass aqui\e[0m"
-  echo -e " \e[00;31m══════════════\e[0m\e[01;37mVIP\e[00;31m═══════════════\e[0m"
+  echo -e " \e[00;31m══════════════\e[0m\e[01;37m\e[00;31m═══════════════\e[0m"
   echo -e " \e[01;37m〘*5*〙\e[0m\e[01;33mGANHAR CREDITOS\e[0m\c"; echo -e "    \e[02;03;37m Vença o joguinho para receber\e[0m"
   echo -e " \e[01;37m〘*6*〙\e[0m\e[01;33mPERTURBAR A PAZ\e[0m\c"; echo -e "    \e[02;03;37m SMS flood\e[0m"
   echo -e ' \e[01;37m〘*7*〙\e[0m\e[01;33mGASTAR CREDITOS "AMIGOS"\e[0m\c'; echo -e "\e[02;03;37m\e[0m"
