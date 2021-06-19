@@ -121,7 +121,7 @@ cd $HOME; clear
   IMG2="Sua Licença (9YKAWYG0H4)"
   clear; echo -e $IMG2
   echo -e "\e[01;37;41m           MENU          \e[0m"; sleep .4; echo
-  echo -e "         ≡ \e[01;37mmenu opções\e[0m ≡"
+  echo -e "         ≡ \e[01;37mOPÇÕES\e[0m ≡"
   echo -e " \e[00;31m══════════════\e[0m\e[01;37m\e[00;31m═══════════════\e[0m"
   echo -e " \e[01;37m〘*1*〙\e[0m\e[01;33mENTRAR MENU VIVO\e[0m"
   echo -e " \e[01;37m〘*2*〙\e[0m\e[01;33mENTRAR MENU OI\e[0m"
