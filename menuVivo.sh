@@ -176,20 +176,20 @@ clear && echo -e $tit
                  esac
               done
            done
-           echo -e "         \e[01;37m O P Ç Õ E S \e[0m"
+           echo -e "         \e[01;37m OPÇÕES \e[0m"
            echo -e " \e[00;31m══════════════\e[0m\e[01;37m︾\e[00;31m═══════════════\e[0m"
            echo -e " \e[01;37m〘*1*〙\e[0m\e[01;33mREPETIR PERSONALIZADO\e[0m\c"; echo -e "\e[02;03;37m Cole o(s) token(s)\e[0m"
            echo -e " \e[00;31m══════════════\e[0m\e[01;37m︾\e[00;31m═══════════════\e[0m"
            echo -e " \e[01;37m『*2*』\e[0m\e[01;33mVOLTAR PARA O MENU\e[0m\c"; echo -e "\e[02;03;37m\e[0m"
-           echo -e " \e[01;37m『*0*』\e[0m\e[01;33mCAIR FORA DO SCRIPT\e[0m\c"; echo -e "\e[02;03;37m   Noob sofre\e[0m"
+           echo -e " \e[01;37m『*0*』\e[0m\e[01;33mCAIR FORA DO SCRIPT\e[0m\c"; echo -e "\e[02;03;37m\e[0m"
            echo -e " \e[00;31m═══════════════════════════════\e[0m"
             while :; do
              read -n1 -p "$veri" opc2; echo
                  case $opc2 in
                       1) break;;
                       2) break;;
-                      0) rm principal2 > /dev/null 2>&1; echo -e "\e[01;37mNoob sofre | @EhisOpeNer\e[0m"; echo -e "\e[01;33mPara iniciar novamente digite: ./principal\e[0m"|pv -qL 20; exit;;
-                      *) echo -e "\e[01;37;41m CALMA BARBOLETA \e[0m"; sleep 1
+                      0) rm principal2 > /dev/null 2>&1; echo -e "\e[01;37mNetModz | @NetModz\e[0m"; echo -e "\e[01;33mPara iniciar novamente digite: ./principal\e[0m"|pv -qL 20; exit;;
+                      *) echo -e "\e[01;37;41m CALMA \e[0m"; sleep 1
                  esac
             done
                  case $opc2 in
@@ -245,12 +245,12 @@ clear && echo -e $tit
                           echo -e "\e[01;37m TOKEN >\e[0m\e[00;32m $toki\e[0m"; sleep .5
                           echo -e "\e[01;37m TUDO CERTO O NÚMERO \e[00;32m$numero\e[0m \e[01;37mPODE RECEBER MB's\n SÓ UTILIZAR ELE NO TESTADOR PADRÃO\n PODE TAMBÉM COPIAR O \e[00;32mTOKEN\e[0m \e[01;37mPARA UTILIZA-LO NO PERSONALIZADO"|pv -qL 25; sleep 1; echo
                   esac
-           echo -e "         \e[01;37m O P Ç Õ E S \e[0m"
+           echo -e "         \e[01;37m OPÇÕES \e[0m"
            echo -e " \e[00;31m══════════════\e[0m\e[01;37m︾\e[00;31m═══════════════\e[0m"
            echo -e " \e[01;37m〘*1*〙\e[0m\e[01;33mREPETIR VERIFICAÇÃO\e[0m\c"; echo -e "\e[02;03;37m Ver se posso ganhar MB's\e[0m"
            echo -e " \e[00;31m══════════════\e[0m\e[01;37m︾\e[00;31m═══════════════\e[0m"
            echo -e " \e[01;37m『*2*』\e[0m\e[01;33mVOLTAR PARA O MENU\e[0m\c"; echo -e "\e[02;03;37m\e[0m"
-           echo -e " \e[01;37m『*0*』\e[0m\e[01;33mCAIR FORA DO SCRIPT\e[0m\c"; echo -e "\e[02;03;37m   Noob sofre\e[0m"
+           echo -e " \e[01;37m『*0*』\e[0m\e[01;33mCAIR FORA DO SCRIPT\e[0m\c"; echo -e "\e[02;03;37m\e[0m"
            echo -e " \e[00;31m═══════════════════════════════\e[0m"
             while :; do
              read -n1 -p "$veri" opc2; echo
@@ -258,7 +258,7 @@ clear && echo -e $tit
                       1) break;;
                       2) break;;
                       0) rm principal2 > /dev/null 2>&1; echo -e "\e[01;37mNoob sofre | @EhisOpeNer\e[0m"; echo -e "\e[01;33mPara iniciar novamente digite: ./principal\e[0m"|pv -qL 20; exit;;
-                      *) echo -e "\e[01;37;41m CALMA BARBOLETA \e[0m"; sleep 1
+                      *) echo -e "\e[01;37;41m CALMA \e[0m"; sleep 1
                  esac
             done
                  case $opc2 in
@@ -305,12 +305,12 @@ clear && echo -e $tit
                           echo -e "\e[01;37m TOKEN >\e[0m\e[00;32m $toki\e[0m"; sleep .5
                           echo -e "\e[01;37m TUDO CERTO O NÚMERO \e[00;32m$numero\e[0m \e[01;37mPODE RECEBER MB's\n SÓ UTILIZAR ELE NO TESTADOR PADRÃO\n PODE TAMBÉM COPIAR O \e[00;32mTOKEN\e[0m \e[01;37mPARA UTILIZA-LO NO PERSONALIZADO"|pv -qL 25; sleep 1; echo
                   esac
-           echo -e "         \e[01;37m O P Ç Õ E S \e[0m"
+           echo -e "         \e[01;37m OPÇÕES \e[0m"
            echo -e " \e[00;31m══════════════\e[0m\e[01;37m︾\e[00;31m═══════════════\e[0m"
            echo -e " \e[01;37m〘*1*〙\e[0m\e[01;33mREPETIR VERIFICAÇÃO\e[0m\c"; echo -e "\e[02;03;37m Ver se posso ganhar MB's\e[0m"
            echo -e " \e[00;31m══════════════\e[0m\e[01;37m︾\e[00;31m═══════════════\e[0m"
            echo -e " \e[01;37m『*2*』\e[0m\e[01;33mVOLTAR PARA O MENU\e[0m\c"; echo -e "\e[02;03;37m\e[0m"
-           echo -e " \e[01;37m『*0*』\e[0m\e[01;33mCAIR FORA DO SCRIPT\e[0m\c"; echo -e "\e[02;03;37m   Noob sofre\e[0m"
+           echo -e " \e[01;37m『*0*』\e[0m\e[01;33mCAIR FORA DO SCRIPT\e[0m\c"; echo -e "\e[02;03;37m\e[0m"
            echo -e " \e[00;31m═══════════════════════════════\e[0m"
             while :; do
              read -n1 -p "$veri" opc2; echo
@@ -318,7 +318,7 @@ clear && echo -e $tit
                       1) break;;
                       2) break;;
                       0) rm principal2 > /dev/null 2>&1; echo -e "\e[01;37mNoob sofre | @EhisOpeNer\e[0m"; echo -e "\e[01;33mPara iniciar novamente digite: ./principal\e[0m"|pv -qL 20; exit;;
-                      *) echo -e "\e[01;37;41m CALMA BARBOLETA \e[0m"; sleep 1
+                      *) echo -e "\e[01;37;41m CALMA\e[0m"; sleep 1
                  esac
             done
                  case $opc2 in
@@ -523,7 +523,7 @@ clear && echo -e $tit
                    echo -e "\e[01;33m  $empate2\e[0m"; sleep .8; echo
                    echo -e "\e[01;33m QUASE... MAIS UMA!\e[0m"|pv -qL 25; sleep 2.5
 	              fi;;
-	           *) echo; echo -e "\e[01;37;41m CALMA BARBOLETA \e[0m"; sleep 1
+	           *) echo; echo -e "\e[01;37;41m CALMA \e[0m"; sleep 1
              esac
            done
            clear; echo -e $tit
@@ -579,7 +579,7 @@ clear && echo -e $tit
                    2) VEZES=100; echo; echo -e '\e[01;37;41m 100 é legal, mas esperava mais de você... \e[0m'|pv -qL 25; sleep 2; break;;
                    3) VEZES=500; echo; echo -e '\e[01;37;41m Agora sim 500, esse é meu garoto \e[0m'|pv -qL 25; sleep 2.5; break;;
                    4) VEZES=999; echo; echo -e '\e[01;37;41m 999?... cara, vou deixar você andar comigo no recreio \e[0m'|pv -qL 25; sleep 3; break;;
-                   *) echo; echo -e "\e[01;37;41m CALMA BARBOLETA \e[0m"; sleep 1
+                   *) echo; echo -e "\e[01;37;41m CALMA \e[0m"; sleep 1
               esac
            done
            clear && echo -e $tit
@@ -614,15 +614,15 @@ clear && echo -e $tit
            echo -e " \e[01;37m〘*1*〙\e[0m\e[01;33mREPETIR PERTURBADOR\e[0m\c"; echo -e "\e[02;03;37m Cole o(s) token(s)\e[0m"
            echo -e " \e[00;31m══════════════\e[0m\e[01;37m︾\e[00;31m═══════════════\e[0m"
            echo -e " \e[01;37m『*2*』\e[0m\e[01;33mVOLTAR PARA O MENU\e[0m\c"; echo -e "\e[02;03;37m\e[0m"
-           echo -e " \e[01;37m『*0*』\e[0m\e[01;33mCAIR FORA DO SCRIPT\e[0m\c"; echo -e "\e[02;03;37m   Noob sofre\e[0m"
+           echo -e " \e[01;37m『*0*』\e[0m\e[01;33mCAIR FORA DO SCRIPT\e[0m\c"; echo -e "\e[02;03;37m\e[0m"
            echo -e " \e[00;31m═══════════════════════════════\e[0m"
             while :; do
              read -n1 -p "$veri" opc2; echo
                  case $opc2 in
                       1) break;;
                       2) break;;
-                      0) rm principal2 > /dev/null 2>&1; echo -e "\e[01;37mNoob sofre | @EhisOpeNer\e[0m"; echo -e "\e[01;33mPara iniciar novamente digite: ./principal\e[0m"|pv -qL 20; exit;;
-                      *) echo -e "\e[01;37;41m CALMA BARBOLETA \e[0m"; sleep 1
+                      0) rm principal2 > /dev/null 2>&1; echo -e "\e[01;37mNetModz | @NetModz\e[0m"; echo -e "\e[01;33mPara iniciar novamente digite: ./principal\e[0m"|pv -qL 20; exit;;
+                      *) echo -e "\e[01;37;41m CALMA \e[0m"; sleep 1
                  esac
             done
                  case $opc2 in
@@ -863,7 +863,7 @@ clear && echo -e $tit
 
                      8) echo -e '\e[01;37;41m SEM CHORO | @EhisOpeNer \e[0m'|pv -qL 25; sleep 1; break;;
                      0) exit;;
-                     *) echo -e "\e[01;37;41m CALMA BARBOLETA \e[0m"; sleep 1
+                     *) echo -e "\e[01;37;41m CALMA \e[0m"; sleep 1
                 esac; done
                      case $opc in
                           8) break
@@ -873,15 +873,15 @@ clear && echo -e $tit
            echo -e " \e[01;37m〘*1*〙\e[0m\e[01;33mCOMER CREDITOS DE NOVO\e[0m\c"; echo -e "\e[02;03;37m Meu garoto!\e[0m"
            echo -e " \e[00;31m══════════════\e[0m\e[01;37m︾\e[00;31m═══════════════\e[0m"
            echo -e " \e[01;37m『*2*』\e[0m\e[01;33mVOLTAR PARA O MENU\e[0m\c"; echo -e "\e[02;03;37m\e[0m"
-           echo -e " \e[01;37m『*0*』\e[0m\e[01;33mCAIR FORA DO SCRIPT\e[0m\c"; echo -e "\e[02;03;37m   Noob sofre\e[0m"
+           echo -e " \e[01;37m『*0*』\e[0m\e[01;33mCAIR FORA DO SCRIPT\e[0m\c"; echo -e "\e[02;03;37m\e[0m"
            echo -e " \e[00;31m═══════════════════════════════\e[0m"
             while :; do
             read -n1 -p "$veri" opc2; echo
                  case $opc2 in
                       1) break;;
                       2) break;;
-                      0) rm principal2 > /dev/null 2>&1; echo -e "\e[01;37mNoob sofre | @EhisOpeNer\e[0m"; echo -e "\e[01;33mPara iniciar novamente digite: ./principal\e[0m"|pv -qL 20; exit;;
-                      *) echo -e "\e[01;37;41m CALMA BARBOLETA \e[0m"; sleep 1
+                      0) rm principal2 > /dev/null 2>&1; echo -e "\e[01;37mNetModz | @NetModz\e[0m"; echo -e "\e[01;33mPara iniciar novamente digite: ./principal\e[0m"|pv -qL 20; exit;;
+                      *) echo -e "\e[01;37;41m CALMA \e[0m"; sleep 1
                  esac;
              done
                 case $opc2 in
