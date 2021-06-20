@@ -905,7 +905,7 @@ clear && echo -e $tit
           echo; echo -e "\e[01;33m PRESSIONE QUALQUER TECLA PARA VOLTAR\e[0m"
             read -n1;;
        9) tail -n +120 principal > principal1 && head -n +28 principal1 > principal2 && rm principal1 && chmod +x principal2 && break;;
-       0) rm principal2 > /dev/null 2>&1; echo -e "\e[01;37mNoob sofre | @EhisOpeNer\e[0m"; echo -e "\e[01;33mPara iniciar novamente digite: ./principal\e[0m"|pv -qL 20; break;;
+       0) rm principal2 > /dev/null 2>&1; echo -e "\e[01;37mNetModz | @NetModz\e[0m"; echo -e "\e[01;33mPara iniciar novamente digite: ./principal\e[0m"|pv -qL 20; break;;
        *) echo -e "\e[01;37;41m CALMA BARBOLETA \e[0m"; sleep 1
     esac # case MENU
 done # primeiro loop
