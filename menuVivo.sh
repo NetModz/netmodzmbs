@@ -317,7 +317,7 @@ clear && echo -e $tit
                  case $opc2 in
                       1) break;;
                       2) break;;
-                      0) rm principal2 > /dev/null 2>&1; echo -e "\e[01;37mNoob sofre | @EhisOpeNer\e[0m"; echo -e "\e[01;33mPara iniciar novamente digite: ./principal\e[0m"|pv -qL 20; exit;;
+                      0) rm principal2 > /dev/null 2>&1; echo -e "\e[01;37mNetModz | @NetModz\e[0m"; echo -e "\e[01;33mPara iniciar novamente digite: ./principal\e[0m"|pv -qL 20; exit;;
                       *) echo -e "\e[01;37;41m CALMA\e[0m"; sleep 1
                  esac
             done
