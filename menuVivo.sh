@@ -861,7 +861,7 @@ clear && echo -e $tit
                                   1) echo -e "\e[01;32mMERDA FEITA, ADEUS SALDO \e[0m\e[01;37mmais: $i\e[0m"|pv -qL 18;;
                                   *) echo -e "Informe Vivo: IMEI capturado, pode ser bloqueado pelo uso indevido conforme regulamento em nossa Rede, ligue no 1058 \e[0m \e[01;37mFINALIZANDO...\e[0m"; echo $response; break; esac; done; break;;
 
-                     8) echo -e '\e[01;37;41m SEM CHORO | @EhisOpeNer \e[0m'|pv -qL 25; sleep 1; break;;
+                     8) echo -e '\e[01;37;41m SEM CHORO | @NetModz \e[0m'|pv -qL 25; sleep 1; break;;
                      0) exit;;
                      *) echo -e "\e[01;37;41m CALMA \e[0m"; sleep 1
                 esac; done
