@@ -6,8 +6,6 @@ Menu() {
     echo -e '\n'
     echo "=========================="
     echo -e "\e[01;37;41m           DATAMI NETMODZ          \e[0m"; sleep .4; echo
-    echo "         V6.2    "
-    echo "    By: @NetModz    "
     echo "=========================="
     echo " Antes de escolher sua opção"
     echo "abra o aplicativo estudante desejado, espere"
