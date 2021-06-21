@@ -10,7 +10,8 @@ Menu() {
     echo " Antes de escolher sua opção"
     echo "abra o aplicativo estudante desejado, espere"
     echo "seu aplicativo estudante criar Túnel VPN"
-    echo "e então volte aqui"		
+    echo "e então volte aqui"
+    echo "By: @NetModz		
     echo "=========================="
     echo "[1]  Escola em Casa DF - Bolsa Netfree"
     echo "[2]  E-learning EC (Porto Seguro)"
