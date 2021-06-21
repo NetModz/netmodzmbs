@@ -4,13 +4,14 @@ clear
 Menu() {
     clear
     echo -e '\n'
+    echo "=========================="
     echo -e "\e[01;37;41m           DATAMI NETMODZ          \e[0m"; sleep .4; echo
     echo "=========================="
     echo " Antes de escolher sua opção"
     echo "abra o aplicativo estudante desejado, espere"
     echo "seu aplicativo estudante criar Túnel VPN"
     echo "e então volte aqui"
-    echo "By: @NetModz		
+    echo "By @NetModz		
     echo "=========================="
     echo "[1]  Escola em Casa DF - Bolsa Netfree"
     echo "[2]  E-learning EC (Porto Seguro)"
