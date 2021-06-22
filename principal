@@ -18,7 +18,6 @@ cd $HOME; clear
         case $giro in
              ok) clear; break;;
               *) clear; echo -e $mae
-   echo "Atualizando"
   done; rm s
   echo -e $IMG5; echo
   while :; do
