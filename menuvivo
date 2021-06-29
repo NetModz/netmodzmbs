@@ -5,9 +5,9 @@ Menu() {
     clear
     echo -e '\n'
     echo -e "\e[01;37;41m           EITAAAH! NETMODZ          \e[0m"; sleep .4; echo
-    echo " Ocorreu um erro, tente novamente mais tarde."
+    echo "Ocorreu um erro, tente novamente mais tarde."
     echo "Não foi possivel conectar ao servidor"
-    echo "Todos os servidor da netmodz esta em atualização"
+    echo "Todos os servidores da netmodz esta em atualização"
     echo "=========================="
     echo "[0] SAIR"
     echo -e '\n'
