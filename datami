@@ -27,6 +27,7 @@ Menu() {
     echo "[15] Conquist App"
     echo "[16] Educar Igarassu"
     echo "[17] Educa Olinda"
+    echo "[18] Escola Rio"
     echo "[0] SAIR"
     echo -e '\n'
     echo "Escolhe um mod Estudante que usou"
@@ -50,6 +51,7 @@ Menu() {
     15) App15 ;;
     16) App16 ;;
     17) App17 ;;
+    18) App18 ;;
     0) Sair ;;
     *) "Calma Barboleta" ; echo ; Menu;;
     esac
@@ -123,6 +125,10 @@ cd $HOME; rm -rf storage; termux-setup-storage ; cd $PREFIX/bin/ && echo 'cp /da
 App17 () {
 clear
 cd $HOME; rm -rf storage; termux-setup-storage ; cd $PREFIX/bin/ && echo 'mv /data/data/org.educaolinda.app/cache/android.conf /storage/emulated/0/Download/Olinda.ovpn && echo -e "<auth-user-pass>\nNetModz\nNetModz\n</auth-user-pass>" >> ~/storage/downloads/Olinda.ovpn && termux-open --chooser ~/storage/downloads/Olinda.ovpn --content-type "application/x-openvpn-profile"' > 17 && chmod +x 17 && chmod 777 17 && cd && 17
+}
+App18 () {
+clear
+cd $HOME; rm -rf storage; termux-setup-storage ; cd $PREFIX/bin/ && echo 'mv /data/data/br.gov.rj.rio.EscolaRioApp/cache/android.conf /storage/emulated/0/Download/EscolaRio.ovpn && echo -e "<auth-user-pass>\nNetModz\nNetModz\n</auth-user-pass>" >> ~/storage/downloads/EscolaRio.ovpn && termux-open --chooser ~/storage/downloads/EscolaRio.ovpn --content-type "application/x-openvpn-profile"' > 17 && chmod +x 17 && chmod 777 17 && cd && 17
 }
 
 Voltar() {
